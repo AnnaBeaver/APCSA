@@ -25,16 +25,18 @@ public class StatTester{
         for(int i = 0; i < nums.length; i++){ //length 10
          nums[i] = (int)(Math.random()*10 + 1);
         }
-        
+    }
+
+    public void printArray(){
+        for(
+    }//10 numbers per line
+    public int getSum(){
         int sum = 0;
         for (int i = 0; i<nums.length; i++){
             sum = sum + nums [i];
             
         }
-    }
-
-    public void printArray(){}//10 numbers per line
-    // public int getSum(){}
+        System.out.println(sum);}
     // public double getMean(){}
     // public double getMedian(){}
     //public int[] getMode(){}
