@@ -1,4 +1,4 @@
-
+import java.util.*;
 /**
  * Lab 906::Find Mean Median and Mode
  * 
@@ -13,5 +13,6 @@ public class StatRunner{
         st.loadArray();
         System.out.println(st.getSum());
         System.out.println(st.getMean());
+        System.out.println((Arrays.toString( st.getMode())));
     }
 }
